@@ -51,11 +51,6 @@ Luego se consulto las proyecciones del producto
 
 >projection(ssm_noise)
 
-De estos era necesario conocer las pendiente y la orientación.
-
-```x <- terrain(DEM, opt=c('slope', 'aspect'), unit='degrees')```
-```plot(x)```
-
 Para visualizarlo, se cargo el mapa mundial, para conocer la zona donde se mostraba la humedad
 >#Pac
 
