@@ -65,5 +65,6 @@ Para visualizarlo, se cargo el mapa mundial, para conocer la zona donde se mostr
 
 
 ## Imagen 
-
+![ssm](https://user-images.githubusercontent.com/78845785/110502362-6d126200-80fb-11eb-9fde-b4760091b975.JPG)
+![sss_noise](https://user-images.githubusercontent.com/78845785/110502367-6daaf880-80fb-11eb-99df-3d159fdffedc.jpg)
 
