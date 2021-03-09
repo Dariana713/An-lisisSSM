@@ -1,5 +1,5 @@
 # Análisis_SSM
-Se muestra la forma de analizar, visualizar y conocer los detalles de los productos de humedad del suelo a través de Rstudio
+Se muestra la forma de analizar, visualizar y conocer los detalles de los productos de humedad del suelo a través de Rstudio. Este análisis se realizo para un día. 
 
 
 # Código en Rstudio 
@@ -43,7 +43,7 @@ Luego se consulto las proyecciones del producto
 ```z-value    : 2018-12-31``` 
 ```zvar       : ssm```
 
-###### Ruido de la Humedad de suelo
+##### Ruido de la Humedad de suelo
 
  >ssm_noise <- raster('c_gls_SSM1km_201901010000_CEURO_S1CSAR_V1.1.1.nc', varname="ssm_noise" )
  
