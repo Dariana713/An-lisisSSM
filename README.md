@@ -1,5 +1,6 @@
 # Análisis_SSM 
 Se muestra la forma de analizar, visualizar y conocer los detalles de los productos de humedad del suelo a través de Rstudio. Este análisis se realizo para un día. 
+Los productos de humedad descargados son del producto de Copernicus Global Land Service, de Vegetación el subproducto de Surf.Soil Moisture para el anño 2019, en el primero de Enero. 
 
 
 # Código en Rstudio 
@@ -29,18 +30,27 @@ Luego se cargan las imagenes raster humedad de suelo y el ruido de humedad de su
 
 ```plot(ssm)```
 
-Luego se consulto las proyecciones del producto
+Luego se consulto las proyecciones del producto. Y se conoció las coordenadas geográficas en grados decimales, con una resolución mayor de 1 km.
 
 ```[1] "+proj=longlat +ellps=WGS84 +no_defs"```
 ```> ssm```
+
 ```class      : RasterLayer```
+
 ```dimensions : 4144, 6832, 28311808  (nrow, ncol, ncell)```
+
 ```resolution : 0.008928571, 0.008928571  (x, y)```
+
 ```extent     : -11, 50, 35, 72  (xmin, xmax, ymin, ymax)```
+
 ```crs        : +proj=longlat +ellps=WGS84 +no_defs``` 
+
 ```source     :``` ```C:/Users/Usuario/Documents/R/Pruebas/Humedad/c_gls_SSM1km_201901010000_CEURO_S1CSAR_V1.1.1.nc ```
+
 ```names      : Surface.Soil.Moisture ```
+
 ```z-value    : 2018-12-31``` 
+
 ```zvar       : ssm```
 
 ##### Ruido de la Humedad de suelo
@@ -51,7 +61,7 @@ Luego se consulto las proyecciones del producto
 
 >projection(ssm_noise)
 
-Para visualizarlo, se cargo el mapa mundial, para conocer la zona donde se mostraba la humedad
+Para visualizarlo, se cargo el mapa mundial, para conocer la zona donde se mostraba la humedad. 
 >#Pac
 
 >library(maps)
