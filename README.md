@@ -1,6 +1,6 @@
 # Análisis_SSM 
 Se muestra la forma de analizar, visualizar y conocer los detalles de los productos de humedad del suelo a través de Rstudio. Este análisis se realizo para un día. 
-Los productos de humedad descargados son del producto de Copernicus Global Land Service, de Vegetación el subproducto de Surf.Soil Moisture para el anño 2019, en el primero de Enero. 
+Los productos de humedad descargados son del producto de Copernicus Global Land Service, de Vegetación el subproducto de Surf.Soil Moisture para el año 2019, en el primero de Enero. El subproducto de Surf.Soil Moisture tiene un sensor de Sentinel-1 C-SAR y esta para Europa con una resolución temporal diría. 
 
 
 # Código en Rstudio 
